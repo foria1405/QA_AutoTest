@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="95.484" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\fomin\.cache\selenium\chromedriver\win32\91.0.4472.19\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\AutoTest\hw3\target\test-classes;C:\AutoTest\hw3\target\classes;C:\Users\fomin\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\fomin\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\fomin\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\fomin\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\fomin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\fomin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\fomin\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\fomin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\fomin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\fomin\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\fomin\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\fomin\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\fomin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\fomin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\fomin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\fomin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\fomin\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\fomin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\fomin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\fomin\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\fomin\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\fomin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\fomin\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\fomin\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\fomin\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\fomin\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\fomin\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\fomin\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\fomin\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\fomin\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\fomin\.m2\repository\io\cucumber\cucumber-testng\6.10.0\cucumber-testng-6.10.0.jar;C:\Users\fomin\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\fomin\.m2\repository\io\cucumber\cucumber-core\6.10.0\cucumber-core-6.10.0.jar;C:\Users\fomin\.m2\repository\io\cucumber\cucumber-gherkin\6.10.0\cucumber-gherkin-6.10.0.jar;C:\Users\fomin\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.0\cucumber-gherkin-messages-6.10.0.jar;C:\Users\fomin\.m2\repository\io\cucumber\messages\14.0.1\messages-14.0.1.jar;C:\Users\fomin\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\fomin\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\fomin\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\fomin\.m2\repository\io\cucumber\cucumber-plugin\6.10.0\cucumber-plugin-6.10.0.jar;C:\Users\fomin\.m2\repository\io\cucumber\docstring\6.10.0\docstring-6.10.0.jar;C:\Users\fomin\.m2\repository\io\cucumber\html-formatter\12.0.0\html-formatter-12.0.0.jar;C:\Users\fomin\.m2\repository\io\cucumber\create-meta\3.0.0\create-meta-3.0.0.jar;C:\Users\fomin\.m2\repository\io\cucumber\cucumber-java\6.10.0\cucumber-java-6.10.0.jar;C:\Users\fomin\.m2\repository\io\github\bonigarcia\webdrivermanager\4.3.1\webdrivermanager-4.3.1.jar;C:\Users\fomin\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\fomin\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\fomin\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\fomin\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\fomin\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\fomin\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\fomin\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\fomin\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\fomin\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\fomin\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\fomin\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\fomin\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;C:\Users\fomin\.m2\repository\io\qameta\allure\allure-cucumber-jvm\2.13.9\allure-cucumber-jvm-2.13.9.jar;C:\Users\fomin\.m2\repository\io\qameta\allure\allure-java-commons\2.13.9\allure-java-commons-2.13.9.jar;C:\Users\fomin\.m2\repository\io\qameta\allure\allure-model\2.13.9\allure-model-2.13.9.jar;C:\Users\fomin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.2\jackson-databind-2.12.2.jar;C:\Users\fomin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.2\jackson-annotations-2.12.2.jar;C:\Users\fomin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.2\jackson-core-2.12.2.jar;C:\Users\fomin\.m2\repository\org\apache\tika\tika-core\1.25\tika-core-1.25.jar;C:\Users\fomin\.m2\repository\org\jooq\joor-java-8\0.9.13\joor-java-8-0.9.13.jar;C:\Users\fomin\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\fomin\.m2\repository\io\qameta\allure\allure-testng\2.13.9\allure-testng-2.13.9.jar;C:\Users\fomin\.m2\repository\io\qameta\allure\allure-test-filter\2.13.9\allure-test-filter-2.13.9.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="allure.link.issue.pattern" value="https://example.org/browse/{}"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\fomin\AppData\Local\Temp\surefire16276802353454877072\surefirebooter4564045767106229167.jar C:\Users\fomin\AppData\Local\Temp\surefire16276802353454877072 2021-06-01T23-26-20_724-jvmRun1 surefire6515205923159087358tmp surefire_016308942214819667642tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\AutoTest\hw3\target\test-classes;C:\AutoTest\hw3\target\classes;C:\Users\fomin\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\fomin\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\fomin\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\fomin\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\fomin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\fomin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\fomin\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\fomin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\fomin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\fomin\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\fomin\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\fomin\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\fomin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\fomin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\fomin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\fomin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\fomin\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\fomin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\fomin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\fomin\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\fomin\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\fomin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\fomin\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\fomin\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\fomin\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\fomin\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\fomin\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\fomin\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\fomin\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\fomin\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\fomin\.m2\repository\io\cucumber\cucumber-testng\6.10.0\cucumber-testng-6.10.0.jar;C:\Users\fomin\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\fomin\.m2\repository\io\cucumber\cucumber-core\6.10.0\cucumber-core-6.10.0.jar;C:\Users\fomin\.m2\repository\io\cucumber\cucumber-gherkin\6.10.0\cucumber-gherkin-6.10.0.jar;C:\Users\fomin\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.0\cucumber-gherkin-messages-6.10.0.jar;C:\Users\fomin\.m2\repository\io\cucumber\messages\14.0.1\messages-14.0.1.jar;C:\Users\fomin\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\fomin\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\fomin\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\fomin\.m2\repository\io\cucumber\cucumber-plugin\6.10.0\cucumber-plugin-6.10.0.jar;C:\Users\fomin\.m2\repository\io\cucumber\docstring\6.10.0\docstring-6.10.0.jar;C:\Users\fomin\.m2\repository\io\cucumber\html-formatter\12.0.0\html-formatter-12.0.0.jar;C:\Users\fomin\.m2\repository\io\cucumber\create-meta\3.0.0\create-meta-3.0.0.jar;C:\Users\fomin\.m2\repository\io\cucumber\cucumber-java\6.10.0\cucumber-java-6.10.0.jar;C:\Users\fomin\.m2\repository\io\github\bonigarcia\webdrivermanager\4.3.1\webdrivermanager-4.3.1.jar;C:\Users\fomin\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\fomin\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\fomin\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\fomin\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\fomin\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\fomin\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\fomin\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\fomin\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\fomin\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\fomin\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\fomin\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\fomin\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;C:\Users\fomin\.m2\repository\io\qameta\allure\allure-cucumber-jvm\2.13.9\allure-cucumber-jvm-2.13.9.jar;C:\Users\fomin\.m2\repository\io\qameta\allure\allure-java-commons\2.13.9\allure-java-commons-2.13.9.jar;C:\Users\fomin\.m2\repository\io\qameta\allure\allure-model\2.13.9\allure-model-2.13.9.jar;C:\Users\fomin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.2\jackson-databind-2.12.2.jar;C:\Users\fomin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.2\jackson-annotations-2.12.2.jar;C:\Users\fomin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.2\jackson-core-2.12.2.jar;C:\Users\fomin\.m2\repository\org\apache\tika\tika-core\1.25\tika-core-1.25.jar;C:\Users\fomin\.m2\repository\org\jooq\joor-java-8\0.9.13\joor-java-8-0.9.13.jar;C:\Users\fomin\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\fomin\.m2\repository\io\qameta\allure\allure-testng\2.13.9\allure-testng-2.13.9.jar;C:\Users\fomin\.m2\repository\io\qameta\allure\allure-test-filter\2.13.9\allure-test-filter-2.13.9.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="allure.results.directory" value="C:\AutoTest\hw3\target/allure-results"/>
+    <property name="user.home" value="C:\Users\fomin"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-09-25"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="allure.link.tms.pattern" value="https://example.org/browse/{}"/>
+    <property name="basedir" value="C:\AutoTest\hw3"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\fomin\AppData\Local\Temp\surefire16276802353454877072\surefirebooter4564045767106229167.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11+28"/>
+    <property name="user.name" value="fomin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\fomin\.m2\repository"/>
+    <property name="cucumber.options" value="--plugin io.qameta.allure.cucumber4jvm.AllureCucumber4Jvm"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\fomin\AppData\Local\Temp\"/>
+    <property name="java.version" value="11"/>
+    <property name="user.dir" value="C:\AutoTest\hw3"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\fomin\PuTTY\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\windump;C:\Users\fomin\AppData\Local\Programs\Python\Python39-32\Scripts\;C:\Users\fomin\AppData\Local\Programs\Python\Python39-32\;C:\Users\fomin\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\fomin\AppData\Local\Programs\Python\Python38\;C:\Users\fomin\MikTex\miktex\bin\x64\;C:\Users\fomin\AppData\Local\Microsoft\WindowsApps;%IntelliJ IDEA%;%IntelliJ IDEA Community Edition%;C:\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-11\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11+28"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Test browser title&quot;, &quot;Optional[Ex1]&quot;](1)" classname="hw3.Ex1.Exercise1" time="16.39">
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.19 (resolved driver for Chrome 91)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fomin\.cache\selenium\chromedriver\win32\91.0.4472.19\chromedriver.exe
+Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 35388
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+июн. 01, 2021 11:26:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[DelegatingClassLoader@7323dce7] error at io\qameta\allure\aspects\StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[DelegatingClassLoader@7323dce7] error at io\qameta\allure\aspects\AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[DelegatingClassLoader@74f649a7] error at io\qameta\allure\aspects\StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[DelegatingClassLoader@74f649a7] error at io\qameta\allure\aspects\AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Test contents header section&quot;, &quot;Optional[Ex1]&quot;](2)" classname="hw3.Ex1.Exercise1" time="9.928">
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.19 (resolved driver for Chrome 91)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fomin\.cache\selenium\chromedriver\win32\91.0.4472.19\chromedriver.exe
+Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 21891
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+июн. 01, 2021 11:26:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[DelegatingClassLoader@484a5ddd] error at io\qameta\allure\aspects\StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[DelegatingClassLoader@484a5ddd] error at io\qameta\allure\aspects\AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Test index page images&quot;, &quot;Optional[Ex1]&quot;](3)" classname="hw3.Ex1.Exercise1" time="9.428">
+    <system-err><![CDATA[[DelegatingClassLoader@5059d398] error at io\qameta\allure\aspects\StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[DelegatingClassLoader@5059d398] error at io\qameta\allure\aspects\AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[DelegatingClassLoader@1d008e61] error at io\qameta\allure\aspects\StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[DelegatingClassLoader@1d008e61] error at io\qameta\allure\aspects\AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.19 (resolved driver for Chrome 91)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fomin\.cache\selenium\chromedriver\win32\91.0.4472.19\chromedriver.exe
+Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 36406
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+июн. 01, 2021 11:26:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Test index page of main headers text&quot;, &quot;Optional[Ex1]&quot;](4)" classname="hw3.Ex1.Exercise1" time="8.491">
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.19 (resolved driver for Chrome 91)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fomin\.cache\selenium\chromedriver\win32\91.0.4472.19\chromedriver.exe
+Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 4823
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+июн. 01, 2021 11:27:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[DelegatingClassLoader@33089426] error at io\qameta\allure\aspects\StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[DelegatingClassLoader@33089426] error at io\qameta\allure\aspects\AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Test center iframe&quot;, &quot;Optional[Ex1]&quot;](5)" classname="hw3.Ex1.Exercise1" time="17.872">
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.19 (resolved driver for Chrome 91)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fomin\.cache\selenium\chromedriver\win32\91.0.4472.19\chromedriver.exe
+Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 23496
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+июн. 01, 2021 11:27:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Test sub header text&quot;, &quot;Optional[Ex1]&quot;](6)" classname="hw3.Ex1.Exercise1" time="8.892">
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.19 (resolved driver for Chrome 91)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fomin\.cache\selenium\chromedriver\win32\91.0.4472.19\chromedriver.exe
+Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 37838
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+июн. 01, 2021 11:27:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Test Left Section&quot;, &quot;Optional[Ex1]&quot;](7)" classname="hw3.Ex1.Exercise1" time="11.09">
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.19 (resolved driver for Chrome 91)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fomin\.cache\selenium\chromedriver\win32\91.0.4472.19\chromedriver.exe
+Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 8157
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+июн. 01, 2021 11:27:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Test Footer&quot;, &quot;Optional[Ex1]&quot;](8)" classname="hw3.Ex1.Exercise1" time="8.588">
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.19 (resolved driver for Chrome 91)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fomin\.cache\selenium\chromedriver\win32\91.0.4472.19\chromedriver.exe
+Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 11383
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+июн. 01, 2021 11:27:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[DelegatingClassLoader@11cdf948] error at io\qameta\allure\aspects\StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[DelegatingClassLoader@11cdf948] error at io\qameta\allure\aspects\AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[DelegatingClassLoader@779448b8] error at io\qameta\allure\aspects\StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[DelegatingClassLoader@779448b8] error at io\qameta\allure\aspects\AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+]]></system-err>
+  </testcase>
+</testsuite>

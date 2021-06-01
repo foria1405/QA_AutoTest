@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="GlobalTestSuite" verbose="1" >
+    <test name="Functional">
+        <classes>
+            <class name="hw3.Ex1.Exercise1"/>
+            <class name="hw3.Ex2.Exercise2"/>
+        </classes>
+    </test>
+</suite>
